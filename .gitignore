@@ -1,0 +1,12 @@
+node_modules/
+lib/
+logs/
+.npmrc
+
+yarn.lock
+
+.env.development
+.development.env
+.env.production
+.production.env
+.env
