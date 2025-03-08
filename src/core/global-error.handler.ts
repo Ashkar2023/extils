@@ -2,7 +2,7 @@ import { NextFunction, Request, Response } from "express";
 import { AppError, EnvNotFoundError } from "./errors.extended";
 
 
-export function globalErrorHadler(err: Error, req: Request, res: Response, next: NextFunction): void {
+export function globalErrorHandler(err: Error, req: Request, res: Response, next: NextFunction): void {
 
     if (err instanceof AppError) {
         res.status(err.statusCode).json({
@@ -22,4 +22,4 @@ export function globalErrorHadler(err: Error, req: Request, res: Response, next:
     }
 }
 
-export type IGlobalErrorHandler = typeof globalErrorHadler;
+export type IGlobalErrorHandler = typeof globalErrorHandler;
