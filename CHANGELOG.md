@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2] - 08-03-2025
+### Fixed
+- Typo in global error handler
+
 ## [1.0.1] - 07-03-2025
 ### Fixed
 - Fixed a bug where cookies were missing in return from response creator get method
