@@ -1,4 +1,4 @@
-import { IResponse } from "../types/response";
+import { IResponse } from "../types/response.creator";
 import { NextFunction, Request, RequestHandler, Response } from "express";
 
 type ControllerFunc = (req: Request, next: NextFunction) => Promise<IResponse | never>;

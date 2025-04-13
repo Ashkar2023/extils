@@ -4,4 +4,4 @@ export * from "./core/errors.extended"
 export * from "./core/global-error.handler"
 export * from "./core/response.creator"
 
-export * from "./types/response"
+export * from "./types/response.creator"

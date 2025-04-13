@@ -1,5 +1,5 @@
 import { CookieOptions } from "express";
-import { IResponse, IResponseCreator } from "../types/response";
+import { IResponse, IResponseCreator } from "../types/response.creator";
 
 export class ResponseCreator implements IResponseCreator {
     #statusCode: number;
